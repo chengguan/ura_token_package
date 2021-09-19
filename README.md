@@ -2,14 +2,14 @@
 
 This is a small example to obtain URA API token. 
 
-## Register for your access key with [URA] (https://www.ura.gov.sg/maps/api/reg.html)
+## Register for your access key with [URA](https://www.ura.gov.sg/maps/api/reg.html)
 
 ## Example:
 ```python
 import requests
 import json
 
-import ura_token
+from ura_token import ura_token
 
 u=ura_token.ura_token('<place your ura token here>')
 

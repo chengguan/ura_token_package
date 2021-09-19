@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: ura-token-pkg-chengguan
-Version: 0.0.1
+Version: 0.0.2
 Summary: A small example to obtain URA API token.
 Home-page: https://github.com/pypa/ura_token
 Author: Teo Cheng Guan
@@ -19,14 +19,14 @@ License-File: LICENSE
 
 This is a small example to obtain URA API token. 
 
-## Register for your access key with [URA] (https://www.ura.gov.sg/maps/api/reg.html)
+## Register for your access key with [URA](https://www.ura.gov.sg/maps/api/reg.html)
 
 ## Example:
 ```python
 import requests
 import json
 
-import ura_token
+from ura_token import ura_token
 
 u=ura_token.ura_token('<place your ura token here>')
 
