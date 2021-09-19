@@ -1,7 +1,7 @@
 import requests
 import json
 
-import ura_token
+from ura_token import ura_token
 
 u=ura_token.ura_token('<place your ura token here>')
 
